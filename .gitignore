@@ -14,3 +14,9 @@ bash
 #  Ignore CLI configuration files
  .terraformrc
  terraform.rc
+ .terraform/
+ .terraform/*
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+errored.tfstate
